@@ -1,0 +1,58 @@
+body{
+    color: #444444;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh; /*vh stands for view port height */
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+footer{
+    background-color: darkslategray;
+    color: white;
+    padding: 16px;
+    margin: 50px 0;
+}
+
+.menu{
+    border-bottom: solid 1px grey;
+    color: dimgray;
+    padding: 16px;
+    text-align: center;
+    margin: 50px 0;;
+}
+
+.menu-item{
+    margin: 20px 50px;
+    text-decoration: none;
+    color:  grey;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 16px;
+}
+
+#robot{
+    max-width: 250px;
+}
+
+input {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid navy;
+    background: rgb(54, 61, 58);
+    color: white;
+    padding: 10px;
+}
